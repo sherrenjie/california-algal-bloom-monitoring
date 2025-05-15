@@ -1,0 +1,23 @@
+name: algalbloom
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - xarray
+  - netcdf4
+  - dask
+  - matplotlib
+  - cartopy
+  - numpy
+  - pandas
+  - scipy
+  - jupyterlab
+  - seaborn
+  - scikit-learn
+  - pytest
+  - black
+  - flake8
+  - pip
+  - pip:
+    - earthpy
